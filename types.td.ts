@@ -1,4 +1,4 @@
-interface BookOverviewProps {
+interface BookProps {
   id: number;
   title: string;
   author: string;
