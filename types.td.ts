@@ -11,3 +11,16 @@ interface BookProps {
   coverUrl: string;
   isLoanedBook?: boolean;
 }
+
+interface SignInSchema {
+  email: string;
+  password: string;
+}
+
+interface SignUpSchema {
+  fullName: string;
+  email: string;
+  universityId: number;
+  universityCard: string;
+  password: string;
+}
